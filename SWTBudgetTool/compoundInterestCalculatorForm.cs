@@ -27,6 +27,12 @@ namespace SWTBudgetTool
         {
 
         }
+        // need to add calculate button logic
 
+        // need to add clear button logic
+
+        // need to add in change handlers for principal, interest rate and time?
+
+        // need to add formula for calculating compound interest
     }
 }
