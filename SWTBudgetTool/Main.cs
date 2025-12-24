@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace SWTBudgetTool
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+
+            compoundInterestCalculatorForm calcForm = new compoundInterestCalculatorForm();
+                calcForm.ShowDialog();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace SWTBudgetTool
 {
-    partial class Form1
+    partial class compoundInterestCalculatorForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,37 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripLabel = new System.Windows.Forms.ToolStripLabel();
-            this.toolStrip1.SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.tbPrincipal = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.SuspendLayout();
             // 
-            // toolStrip1
+            // tbPrincipal
             // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripLabel});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
+            this.tbPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.tbPrincipal.Name = "tbPrincipal";
+            this.tbPrincipal.Size = new System.Drawing.Size(100, 20);
+            this.tbPrincipal.TabIndex = 0;
+            this.tbPrincipal.Text = "Principal";
             // 
-            // toolStripLabel
+            // contextMenuStrip1
             // 
-            this.toolStripLabel.Name = "toolStripLabel";
-            this.toolStripLabel.Size = new System.Drawing.Size(98, 22);
-            this.toolStripLabel.Text = "SWT Budget Tool";
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // Form1
+            // compoundInterestCalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.toolStrip1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
+            this.ClientSize = new System.Drawing.Size(684, 262);
+            this.Controls.Add(this.tbPrincipal);
+            this.Name = "compoundInterestCalculatorForm";
+            this.Text = "Compound Interest Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -66,8 +61,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel;
+        private System.Windows.Forms.TextBox tbPrincipal;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
-
